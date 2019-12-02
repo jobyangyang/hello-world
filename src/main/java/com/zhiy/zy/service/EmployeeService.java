@@ -11,7 +11,7 @@ import java.util.List;
 @Service
 public class EmployeeService {
 
-    @Autowired(required = false)
+    @Resource
     private EmployeeMapper employeeMapper;
 
    public List<Employee> getAll(){
