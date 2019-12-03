@@ -1,3 +1,5 @@
 # hello-world
-this is my first 
-the early bird catches the worm!
+# 使用技术：
+### Java 、SpringBoot2.0x  
+### tomcat 8.5
+### MySQL、 MongoDB
