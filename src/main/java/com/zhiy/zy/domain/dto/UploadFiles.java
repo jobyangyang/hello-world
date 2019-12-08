@@ -1,7 +1,7 @@
 package com.zhiy.zy.domain.dto;
 
 /**
- * 静态文件上传类
+ * 文件上传类
  */
 public class UploadFiles {
     /* 静态资源路径 */

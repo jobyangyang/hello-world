@@ -11,6 +11,7 @@ public class StudentRepository  {
     @Autowired
     private MongoTemplate mongoTemplate;
 
+    /* 添加学生 */
     public void insert(Student student){
         mongoTemplate.insert(student);
     }

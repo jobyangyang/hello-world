@@ -9,6 +9,7 @@ import org.springframework.stereotype.Component;
 @Configuration
 @ConfigurationProperties(prefix = "file")
 public class UploadFilesProperties {
+    /* 上传文件 路径字段*/
     private UploadFiles uploadFiles = new UploadFiles();
 
     public UploadFiles getUploadFiles() {
