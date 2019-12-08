@@ -4,4 +4,11 @@
     <select id="getAll" resultType="com.zhiy.zy.domain.Employee">
         SELECT * FROM demo01.`employee`
     </select>
+    <select id="findEmpByNo" resultType="com.zhiy.zy.domain.Employee">
+        SELECT * FROM demo01.`employee`
+        <where>
+            empNo=#{empNo}
+        </where>
+    </select>
+
 </mapper>
