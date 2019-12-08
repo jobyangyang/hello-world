@@ -8,6 +8,19 @@ spring:
     password: 123123
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: org.springframework.jdbc.datasource.DriverManagerDataSource
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/test
+#静态资源路径
+file:
+  upload-files:
+    staticImgPath: /static/img/**
+    staticBgmPath: /static/bgm/**
+    staticVideoPath: /static/video/**
+    uploadImgPath: E:/static/img/
+    uploadBgmPath: E:/static/bgm/
+    uploadVideoPath: E:/static/video/
+
 
 mybatis:
   mapper-locations: classpath*:/mapper/*Mapper.xml
